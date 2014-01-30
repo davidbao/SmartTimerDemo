@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[BSShieldViewController makeSendBuffer:returnLength:commandBuffer:commandLength:]:BSShieldViewController.mm">
+      </ContextState>
+      <ContextState
+         contextName = "Common::ByteArray::toString(char const*) const:ByteArray.h">
+         <PersistentStrings>
+            <PersistentString
+               value = "at(i)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Common::MemoryStream::writeBCDDateTime(long, bool):MemoryStream.h">
+      </ContextState>
+      <ContextState
+         contextName = "Common::Array&lt;unsigned char&gt;::at(unsigned int) const:Array.h">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

@@ -1,0 +1,29 @@
+Contents of /Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/BlueShieldDemo-Prefix.pch
+-x
+objective-c
+-arch
+armv7
+-fretain-comments-from-system-headers
+-std=gnu99
+-fobjc-arc
+-fpascal-strings
+-Os
+-isysroot
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk
+-g
+-fvisibility=hidden
+-miphoneos-version-min=5.1
+-iquote
+-iquote
+-I/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/BlueShieldDemo/ArchiveIntermediates/BlueShieldDemo/BuildProductsPath/Release-iphoneos/include
+-I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+-F/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/BlueShieldDemo/ArchiveIntermediates/BlueShieldDemo/BuildProductsPath/Release-iphoneos
+-ferror-limit=10
+-working-directory=/Users/chenbo/Desktop/BlueShieldDemo
+-Xclang
+-detailed-preprocessing-record
+-DNS_BLOCK_ASSERTIONS=1
+arm-apple-darwin13.0.0
+"4.2.1 Compatible Apple LLVM 5.0 (clang-500.2.79)"
+SDK_PRODUCT_BUILD_VERSION=11B508
+11B508

@@ -1,0 +1,882 @@
+TBlueShieldDemo
+v6
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/Info.plist /Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/BlueShieldDemo-Info.plist
+cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/ResourceRules.plist
+cSymLink /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/BuildProductsPath/Release-iphoneos/BlueShieldDemo.app /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app
+cProcessPCH /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/PrecompiledHeaders/BlueShieldDemo-Prefix-ahovnyuejtapzmfywndwksjexufy/BlueShieldDemo-Prefix.pch.pch BlueShieldDemo/BlueShieldDemo-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/Objects-normal/armv7/main.o /Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/Objects-normal/armv7/BSAppDelegate.o /Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/BSAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/Objects-normal/armv7/BlueShield.o /Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/BlueShield.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/Objects-normal/armv7/BSViewController.o /Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/BSViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/Objects-normal/armv7/MBProgressHUD.o /Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/MBProgressHUD.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/Objects-normal/armv7/BSShieldViewController.o /Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/BSShieldViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/BlueShieldDemo normal armv7
+cGenerateDSYMFile /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/BuildProductsPath/Release-iphoneos/BlueShieldDemo.app.dSYM /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/BlueShieldDemo
+cCopyStringsFile /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/en.lproj/InfoPlist.strings BlueShieldDemo/en.lproj/InfoPlist.strings
+cCopyPNGFile /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/Default.png BlueShieldDemo/Default.png
+cCopyPNGFile /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/Default@2x.png BlueShieldDemo/Default@2x.png
+cCopyPNGFile /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/Default-568h@2x.png BlueShieldDemo/Default-568h@2x.png
+cCompileStoryboard /Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/en.lproj/MainStoryboard_iPhone.storyboard
+cCopyPNGFile /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/bluetooth_shield_57.png bluetooth_shield_57.png
+cCopyPNGFile /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/bluetooth_shield_114.png bluetooth_shield_114.png
+cStripping /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/BlueShieldDemo
+cSetOwnerAndGroup chenbo:staff /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app
+cSetMode u+w,go-w,a+rX /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app
+cProcessProductPackaging /Users/chenbo/Library/MobileDevice/Provisioning\ Profiles/F65EBC01-F79F-451D-AAAA-82107617B259.mobileprovision /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/embedded.mobileprovision
+cTouch /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app
+cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/BlueShieldDemo.xcent
+cCodeSign /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app
+cValidate /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app
+cTouch /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/BuildProductsPath/Release-iphoneos/BlueShieldDemo.app.dSYM
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk
+c00000000525642EE0000000000000110
+t1381384942
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist
+c000000005258E5820000000000000094
+t1381557634
+s148
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist
+c000000005258E5820000000000000096
+t1381557634
+s150
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/SDKSettings.plist
+c000000005258E582000000000000036B
+t1381557634
+s875
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/CoreServices/SystemVersion.plist
+c000000005258E58200000000000001A0
+t1381557634
+s416
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreBluetooth.framework/CoreBluetooth
+c000000005258E583000000000008DED0
+t1381557635
+s581328
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+c000000005258E584000000000079BFE0
+t1381557636
+s7978976
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000005258E58400000000004D63C0
+t1381557636
+s5071808
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000005258E5850000000000A92BC0
+t1381557637
+s11086784
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000005258E58800000000025A5AC0
+t1381557640
+s39475904
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+c000000005258E58B0000000000387B30
+t1381557643
+s3701552
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/crt1.3.1.o
+c000000005258E58F00000000000142B0
+t1381557647
+s82608
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/libSystem.dylib
+c000000005258E58F000000000001D2B0
+t1381557647
+s119472
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/libobjc.dylib
+c000000005258E590000000000054C820
+t1381557648
+s5556256
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcache.dylib
+c000000005258E5900000000000028490
+t1381557648
+s165008
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcommonCrypto.dylib
+c000000005258E59000000000000472B0
+t1381557648
+s291504
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcompiler_rt.dylib
+c000000005258E590000000000003EB80
+t1381557648
+s256896
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcopyfile.dylib
+c000000005258E590000000000002AEE0
+t1381557648
+s175840
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcorecrypto.dylib
+c000000005258E59000000000000E2F20
+t1381557648
+s929568
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libdispatch.dylib
+c000000005258E59000000000000A1FC0
+t1381557648
+s663488
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libdyld.dylib
+c000000005258E590000000000001E8A0
+t1381557648
+s125088
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libkeymgr.dylib
+c000000005258E590000000000000BF00
+t1381557648
+s48896
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/liblaunch.dylib
+c000000005258E5900000000000034100
+t1381557648
+s213248
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libmacho.dylib
+c000000005258E5900000000000022F30
+t1381557648
+s143152
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libremovefile.dylib
+c000000005258E590000000000001D1B0
+t1381557648
+s119216
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_asl.dylib
+c000000005258E5900000000000051110
+t1381557648
+s332048
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_blocks.dylib
+c000000005258E5900000000000017E90
+t1381557648
+s97936
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_c.dylib
+c000000005258E59000000000001BA370
+t1381557648
+s1811312
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_configuration.dylib
+c000000005258E590000000000001EFF0
+t1381557648
+s126960
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_dnssd.dylib
+c000000005258E590000000000002FA40
+t1381557648
+s195136
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_info.dylib
+c000000005258E590000000000008B3E0
+t1381557648
+s570336
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_kernel.dylib
+c000000005258E59000000000000B5FC0
+t1381557648
+s745408
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_m.dylib
+c000000005258E5900000000000078620
+t1381557648
+s493088
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_malloc.dylib
+c000000005258E5900000000000060810
+t1381557648
+s395280
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_network.dylib
+c000000005258E59000000000000B6B40
+t1381557648
+s748352
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_notify.dylib
+c000000005258E5900000000000039D00
+t1381557648
+s236800
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_platform.dylib
+c000000005258E590000000000003E940
+t1381557648
+s256320
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_pthread.dylib
+c000000005258E590000000000002CF80
+t1381557648
+s184192
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_sandbox.dylib
+c000000005258E590000000000001EB50
+t1381557648
+s125776
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_stats.dylib
+c000000005258E590000000000001EDE0
+t1381557648
+s126432
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libunwind.dylib
+c000000005258E59000000000000213C0
+t1381557648
+s136128
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libxpc.dylib
+c000000005258E59000000000000ADAC0
+t1381557648
+s711360
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/arc/libarclite_iphoneos.a
+c000000005258E5790000000000015B84
+t1381557625
+s88964
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.ios.a
+c000000005258E57A0000000000005004
+t1381557626
+s20484
+
+N/Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/BSAppDelegate.h
+c00000000525C4A370000000000000117
+t1381780023
+s279
+
+N/Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/BSAppDelegate.m
+c00000000527BA07800000000000007DB
+t1383833720
+s2011
+
+N/Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/BSDefines.h
+c00000000526161320000000000000687
+t1382113586
+s1671
+
+N/Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/BSShieldViewController.h
+c00000000525C4A370000000000000218
+t1381780023
+s536
+
+N/Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/BSShieldViewController.m
+c00000000525C4A370000000000000777
+t1381780023
+s1911
+
+N/Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/BSViewController.h
+c00000000525C4A370000000000000165
+t1381780023
+s357
+
+N/Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/BSViewController.m
+c0000000052615D450000000000000AE2
+t1382112581
+s2786
+
+N/Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/BlueShield.h
+c00000000525C4A370000000000000AA9
+t1381780023
+s2729
+
+N/Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/BlueShield.m
+c00000000525C4A370000000000004860
+t1381780023
+s18528
+
+N/Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/BlueShieldDemo-Info.plist
+c000000005274B74B0000000000000739
+t1383380811
+s1849
+
+N/Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/BlueShieldDemo-Prefix.pch
+c00000000525C4A37000000000000014B
+t1381780023
+s331
+
+N/Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/Default-568h@2x.png
+c00000000525C4A3700000000000048A2
+t1381780023
+s18594
+
+N/Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/Default.png
+c00000000525C4A37000000000000198C
+t1381780023
+s6540
+
+N/Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/Default@2x.png
+c00000000525C4A370000000000003EEB
+t1381780023
+s16107
+
+N/Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/MBProgressHUD.h
+c00000000525C4A3700000000000032B9
+t1381780023
+s12985
+
+N/Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/MBProgressHUD.m
+c00000000525C4A370000000000005A32
+t1381780023
+s23090
+
+N/Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/en.lproj/InfoPlist.strings
+c00000000525C4A37000000000000002D
+t1381780023
+s45
+
+N/Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/en.lproj/MainStoryboard_iPhone.storyboard
+c00000000525C4A3700000000000025D7
+t1381780023
+s9687
+
+N/Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/main.m
+c00000000525C4A370000000000000152
+t1381780023
+s338
+
+N/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/BuildProductsPath/Release-iphoneos/BlueShieldDemo.app
+t2
+s0
+
+N/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/BuildProductsPath/Release-iphoneos/BlueShieldDemo.app.dSYM
+t1384084313
+s102
+
+N/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app
+t1384084319
+s476
+
+N/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/BlueShieldDemo
+t1384084313
+s127420
+
+N/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/Default-568h@2x.png
+t1384084313
+s7014
+
+N/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/Default.png
+t1384084313
+s3688
+
+N/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/Default@2x.png
+t1384084313
+s6316
+
+N/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/Info.plist
+t1384084310
+s1547
+
+N/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/PkgInfo
+t1384084310
+s8
+
+N/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/ResourceRules.plist
+t1384084310
+s150
+
+N/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/bluetooth_shield_114.png
+t1384084314
+s16208
+
+N/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/bluetooth_shield_57.png
+t1384084313
+s5547
+
+N/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/embedded.mobileprovision
+t1384084319
+s9602
+
+N/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/en.lproj/InfoPlist.strings
+t1384084313
+s42
+
+N/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/en.lproj/MainStoryboard_iPhone.storyboardc
+t1384084319
+s238
+
+N/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/BlueShieldDemo.xcent
+t1384084319
+s527
+
+N/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/Objects-normal/armv7/BSAppDelegate.o
+t1384084312
+s64768
+
+N/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/Objects-normal/armv7/BSShieldViewController.o
+t1384084312
+s66100
+
+N/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/Objects-normal/armv7/BSViewController.o
+t1384084312
+s64836
+
+N/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/Objects-normal/armv7/BlueShield.o
+t1384084312
+s62224
+
+N/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/Objects-normal/armv7/BlueShieldDemo.LinkFileList
+c00000000527F73560000000000000558
+t1384084310
+s1368
+
+N/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/Objects-normal/armv7/MBProgressHUD.o
+t1384084312
+s143396
+
+N/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/Objects-normal/armv7/main.o
+t1384084312
+s3408
+
+N/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/com.apple.build-tools.platform.validate
+t2
+s0
+
+N/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/PrecompiledHeaders/BlueShieldDemo-Prefix-ahovnyuejtapzmfywndwksjexufy/BlueShieldDemo-Prefix.pch.pch
+t1384084311
+s5279288
+
+N/Users/chenbo/Desktop/BlueShieldDemo/bluetooth_shield_114.png
+c00000000525C4A3700000000000034D1
+t1381780023
+s13521
+
+N/Users/chenbo/Desktop/BlueShieldDemo/bluetooth_shield_57.png
+c00000000525C4A370000000000001335
+t1381780023
+s4917
+
+N/Users/chenbo/Library/MobileDevice/Provisioning Profiles/3007C155-FE93-485A-A40B-C6B66BFE5EDB.mobileprovision
+c0000000052744AB40000000000002516
+t1383353012
+s9494
+
+N/Users/chenbo/Library/MobileDevice/Provisioning Profiles/4814F5CB-0998-4E62-A785-B1E2772FBAA1.mobileprovision
+c0000000052741D2C0000000000001D3F
+t1383341356
+s7487
+
+N/Users/chenbo/Library/MobileDevice/Provisioning Profiles/F65EBC01-F79F-451D-AAAA-82107617B259.mobileprovision
+c0000000052744AB40000000000002582
+t1383353012
+s9602
+
+CBuild AST from /Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/BSAppDelegate.m
+r0
+
+CBuild AST from /Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/BSShieldViewController.m
+r0
+
+CBuild AST from /Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/BSViewController.m
+r0
+
+CBuild AST from /Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/BlueShield.m
+r0
+
+CBuild AST from /Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/MBProgressHUD.m
+r0
+
+CBuild AST from /Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesa1db67d6aa2fb841^b29d6bd6aa2fb841^---0#1#1#--18"Check dependencies36"EAA30949-E3DF-41E7-BE82-E932AEB66935-
+
+CCodeSign /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app
+s405777119.236421
+e405777122.532679
+r1
+xCodeSign
+x/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection142"CodeSign DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app142"CodeSign DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app1daf3cdfaa2fb841^c45e88e2aa2fb841^---0#0#1#-19%DVTDocumentLocation2@178"file:///Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/0000000000000000^1365"CodeSign DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app    cd /Users/chenbo/Desktop/BlueShieldDemo    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    Using code signing identity "iPhone Developer: 波 陈 (36QG239A74)" and provisioning profile "iOS Team Provisioning Profile: com.modiatek.*" (F65EBC01-F79F-451D-AAAA-82107617B259)    codesign --force --sign F4B85D624178EF173C768092CDDA7A0403EBDD86 --resource-rules=/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/ResourceRules.plist --entitlements /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/BlueShieldDemo.xcent /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.36"4D81E077-5B95-44FB-977E-FDFCD8EBA087-
+b46CE0A57-0E33-4E0C-90C6-8B7DA2AC8E75
+
+CCompileC DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/Objects-normal/armv7/BSAppDelegate.o /Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/BSAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s405777111.900598
+e405777112.209425
+r1
+xCompileC
+xDerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/Objects-normal/armv7/BSAppDelegate.o
+x/Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/BSAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/BSAppDelegate.m
+d/Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/BSAppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/BSAppDelegate.m299"CompileC DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/Objects-normal/armv7/BSAppDelegate.o BlueShieldDemo/BSAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler28bae6d7aa2fb841^029d35d8aa2fb841^---0#0#1#-19%DVTDocumentLocation2@74"file:///Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/BSAppDelegate.m0000000000000000^4486"CompileC DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/Objects-normal/armv7/BSAppDelegate.o BlueShieldDemo/BSAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/chenbo/Desktop/BlueShieldDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=5.1 -iquote /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/BlueShieldDemo-generated-files.hmap -I/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/BlueShieldDemo-own-target-headers.hmap -I/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/BlueShieldDemo-all-target-headers.hmap -iquote /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/BlueShieldDemo-project-headers.hmap -I/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/BuildProductsPath/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/DerivedSources/armv7 -I/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/DerivedSources -F/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/BuildProductsPath/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/PrecompiledHeaders/BlueShieldDemo-Prefix-ahovnyuejtapzmfywndwksjexufy/BlueShieldDemo-Prefix.pch -MMD -MT dependencies -MF /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/Objects-normal/armv7/BSAppDelegate.d --serialize-diagnostics /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/Objects-normal/armv7/BSAppDelegate.dia -c /Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/BSAppDelegate.m -o /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/Objects-normal/armv7/BSAppDelegate.o36"12F87E99-E1FF-40C4-9468-5B0CB2DFEEE0-
+b46CE0A57-0E33-4E0C-90C6-8B7DA2AC8E75
+
+CCompileC DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/Objects-normal/armv7/BSShieldViewController.o /Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/BSShieldViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s405777112.575909
+e405777112.742908
+r1
+xCompileC
+xDerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/Objects-normal/armv7/BSShieldViewController.o
+x/Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/BSShieldViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/BSShieldViewController.m
+d/Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/BSShieldViewController.h
+d/Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/BlueShield.h
+d/Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/BSDefines.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/BSShieldViewController.m317"CompileC DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/Objects-normal/armv7/BSShieldViewController.o BlueShieldDemo/BSShieldViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler71ac93d8aa2fb841^cf2fbed8aa2fb841^---0#0#1#-19%DVTDocumentLocation2@83"file:///Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/BSShieldViewController.m0000000000000000^4540"CompileC DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/Objects-normal/armv7/BSShieldViewController.o BlueShieldDemo/BSShieldViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/chenbo/Desktop/BlueShieldDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=5.1 -iquote /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/BlueShieldDemo-generated-files.hmap -I/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/BlueShieldDemo-own-target-headers.hmap -I/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/BlueShieldDemo-all-target-headers.hmap -iquote /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/BlueShieldDemo-project-headers.hmap -I/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/BuildProductsPath/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/DerivedSources/armv7 -I/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/DerivedSources -F/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/BuildProductsPath/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/PrecompiledHeaders/BlueShieldDemo-Prefix-ahovnyuejtapzmfywndwksjexufy/BlueShieldDemo-Prefix.pch -MMD -MT dependencies -MF /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/Objects-normal/armv7/BSShieldViewController.d --serialize-diagnostics /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/Objects-normal/armv7/BSShieldViewController.dia -c /Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/BSShieldViewController.m -o /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/Objects-normal/armv7/BSShieldViewController.o36"BA591F4E-E356-4817-A898-5B4E8FE8BD44-
+b46CE0A57-0E33-4E0C-90C6-8B7DA2AC8E75
+
+CCompileC DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/Objects-normal/armv7/BSViewController.o /Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/BSViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s405777112.209942
+e405777112.446201
+r1
+xCompileC
+xDerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/Objects-normal/armv7/BSViewController.o
+x/Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/BSViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/BSViewController.m
+d/Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/BSViewController.h
+d/Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/BlueShield.h
+d/Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/BSDefines.h
+d/Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/MBProgressHUD.h
+d/Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/BSShieldViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/BSViewController.m305"CompileC DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/Objects-normal/armv7/BSViewController.o BlueShieldDemo/BSViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler68ea35d8aa2fb841^5a2b72d8aa2fb841^---0#0#1#-19%DVTDocumentLocation2@77"file:///Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/BSViewController.m0000000000000000^4504"CompileC DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/Objects-normal/armv7/BSViewController.o BlueShieldDemo/BSViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/chenbo/Desktop/BlueShieldDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=5.1 -iquote /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/BlueShieldDemo-generated-files.hmap -I/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/BlueShieldDemo-own-target-headers.hmap -I/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/BlueShieldDemo-all-target-headers.hmap -iquote /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/BlueShieldDemo-project-headers.hmap -I/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/BuildProductsPath/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/DerivedSources/armv7 -I/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/DerivedSources -F/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/BuildProductsPath/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/PrecompiledHeaders/BlueShieldDemo-Prefix-ahovnyuejtapzmfywndwksjexufy/BlueShieldDemo-Prefix.pch -MMD -MT dependencies -MF /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/Objects-normal/armv7/BSViewController.d --serialize-diagnostics /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/Objects-normal/armv7/BSViewController.dia -c /Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/BSViewController.m -o /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/Objects-normal/armv7/BSViewController.o36"7813E1C6-2FA7-446F-B433-BFFD6DC55453-
+b46CE0A57-0E33-4E0C-90C6-8B7DA2AC8E75
+
+CCompileC DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/Objects-normal/armv7/BlueShield.o /Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/BlueShield.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s405777112.196189
+e405777112.574228
+r1
+xCompileC
+xDerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/Objects-normal/armv7/BlueShield.o
+x/Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/BlueShield.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/BlueShield.m
+d/Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/BlueShield.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/BlueShield.m293"CompileC DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/Objects-normal/armv7/BlueShield.o BlueShieldDemo/BlueShield.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerbc7932d8aa2fb841^140493d8aa2fb841^---0#0#1#-19%DVTDocumentLocation2@71"file:///Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/BlueShield.m0000000000000000^4468"CompileC DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/Objects-normal/armv7/BlueShield.o BlueShieldDemo/BlueShield.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/chenbo/Desktop/BlueShieldDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=5.1 -iquote /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/BlueShieldDemo-generated-files.hmap -I/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/BlueShieldDemo-own-target-headers.hmap -I/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/BlueShieldDemo-all-target-headers.hmap -iquote /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/BlueShieldDemo-project-headers.hmap -I/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/BuildProductsPath/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/DerivedSources/armv7 -I/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/DerivedSources -F/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/BuildProductsPath/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/PrecompiledHeaders/BlueShieldDemo-Prefix-ahovnyuejtapzmfywndwksjexufy/BlueShieldDemo-Prefix.pch -MMD -MT dependencies -MF /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/Objects-normal/armv7/BlueShield.d --serialize-diagnostics /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/Objects-normal/armv7/BlueShield.dia -c /Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/BlueShield.m -o /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/Objects-normal/armv7/BlueShield.o36"BE2A4822-B89A-4AE5-9546-D04A32FF81EE-
+b46CE0A57-0E33-4E0C-90C6-8B7DA2AC8E75
+
+CCompileC DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/Objects-normal/armv7/MBProgressHUD.o /Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/MBProgressHUD.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s405777112.446757
+e405777112.979658
+r1
+xCompileC
+xDerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/Objects-normal/armv7/MBProgressHUD.o
+x/Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/MBProgressHUD.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/MBProgressHUD.m
+d/Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/MBProgressHUD.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/MBProgressHUD.m299"CompileC DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/Objects-normal/armv7/MBProgressHUD.o BlueShieldDemo/MBProgressHUD.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerf48b72d8aa2fb841^75cbfad8aa2fb841^---0#0#1#-19%DVTDocumentLocation2@74"file:///Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/MBProgressHUD.m0000000000000000^4486"CompileC DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/Objects-normal/armv7/MBProgressHUD.o BlueShieldDemo/MBProgressHUD.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/chenbo/Desktop/BlueShieldDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=5.1 -iquote /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/BlueShieldDemo-generated-files.hmap -I/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/BlueShieldDemo-own-target-headers.hmap -I/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/BlueShieldDemo-all-target-headers.hmap -iquote /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/BlueShieldDemo-project-headers.hmap -I/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/BuildProductsPath/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/DerivedSources/armv7 -I/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/DerivedSources -F/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/BuildProductsPath/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/PrecompiledHeaders/BlueShieldDemo-Prefix-ahovnyuejtapzmfywndwksjexufy/BlueShieldDemo-Prefix.pch -MMD -MT dependencies -MF /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/Objects-normal/armv7/MBProgressHUD.d --serialize-diagnostics /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/Objects-normal/armv7/MBProgressHUD.dia -c /Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/MBProgressHUD.m -o /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/Objects-normal/armv7/MBProgressHUD.o36"A470D944-2716-4B2A-80D1-8E15ADEFDF07-
+b46CE0A57-0E33-4E0C-90C6-8B7DA2AC8E75
+
+CCompileC DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/Objects-normal/armv7/main.o /Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s405777111.899067
+e405777112.195308
+r1
+xCompileC
+xDerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/Objects-normal/armv7/main.o
+x/Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/main.m
+d/Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/BSAppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/main.m281"CompileC DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/Objects-normal/armv7/main.o BlueShieldDemo/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler3656e6d7aa2fb841^d6ff31d8aa2fb841^---0#0#1#-19%DVTDocumentLocation2@65"file:///Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/main.m0000000000000000^4432"CompileC DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/Objects-normal/armv7/main.o BlueShieldDemo/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/chenbo/Desktop/BlueShieldDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=5.1 -iquote /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/BlueShieldDemo-generated-files.hmap -I/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/BlueShieldDemo-own-target-headers.hmap -I/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/BlueShieldDemo-all-target-headers.hmap -iquote /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/BlueShieldDemo-project-headers.hmap -I/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/BuildProductsPath/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/DerivedSources/armv7 -I/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/DerivedSources -F/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/BuildProductsPath/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/PrecompiledHeaders/BlueShieldDemo-Prefix-ahovnyuejtapzmfywndwksjexufy/BlueShieldDemo-Prefix.pch -MMD -MT dependencies -MF /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/Objects-normal/armv7/main.d --serialize-diagnostics /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/Objects-normal/armv7/main.dia -c /Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/main.m -o /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/Objects-normal/armv7/main.o36"7D3571F8-6CB8-415B-B94B-2C34D39B6731-
+b46CE0A57-0E33-4E0C-90C6-8B7DA2AC8E75
+
+CCompileStoryboard /Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/en.lproj/MainStoryboard_iPhone.storyboard
+s405777113.813606
+e405777119.140419
+r1
+xCompileStoryboard
+x/Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/en.lproj/MainStoryboard_iPhone.storyboard
+o2013-11-10 19:51:57.876 Interface Builder Cocoa Touch Tool[904:303] CFPreferences: user home directory at file:///Users/chenbo/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"CompileStoryboard BlueShieldDemo/en.lproj/MainStoryboard_iPhone.storyboard74"CompileStoryboard BlueShieldDemo/en.lproj/MainStoryboard_iPhone.storyboard2061d0d9aa2fb841^d00a24dfaa2fb841^-229"2013-11-10 19:51:57.876 Interface Builder Cocoa Touch Tool[904:303] CFPreferences: user home directory at file:///Users/chenbo/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#1#-19%DVTDocumentLocation2@100"file:///Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/en.lproj/MainStoryboard_iPhone.storyboard0000000000000000^925"CompileStoryboard BlueShieldDemo/en.lproj/MainStoryboard_iPhone.storyboard    cd /Users/chenbo/Desktop/BlueShieldDemo    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 5.1 --output-format human-readable-text --compile /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/en.lproj/MainStoryboard_iPhone.storyboardc /Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/en.lproj/MainStoryboard_iPhone.storyboard36"42AC9CDF-CD78-435E-8E82-7AA8B09C1728-
+b46CE0A57-0E33-4E0C-90C6-8B7DA2AC8E75
+
+CCopyPNGFile /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/Default-568h@2x.png BlueShieldDemo/Default-568h@2x.png
+s405777113.747649
+e405777113.912764
+r1
+xCopyPNGFile
+x/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/Default-568h@2x.png
+xBlueShieldDemo/Default-568h@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection200"CopyPNGFile DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/Default-568h@2x.png BlueShieldDemo/Default-568h@2x.png200"CopyPNGFile DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/Default-568h@2x.png BlueShieldDemo/Default-568h@2x.png787cbfd9aa2fb841^f3abe9d9aa2fb841^---0#0#1#-19%DVTDocumentLocation2@78"file:///Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/Default-568h@2x.png0000000000000000^807"CopyPNGFile DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/Default-568h@2x.png BlueShieldDemo/Default-568h@2x.png    cd /Users/chenbo/Desktop/BlueShieldDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/Default-568h@2x.png /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/Default-568h@2x.png36"2FB381B7-900B-4493-848E-2872C3DD16FB-
+b46CE0A57-0E33-4E0C-90C6-8B7DA2AC8E75
+
+CCopyPNGFile /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/Default.png BlueShieldDemo/Default.png
+s405777113.639273
+e405777113.747309
+r1
+xCopyPNGFile
+x/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/Default.png
+xBlueShieldDemo/Default.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection184"CopyPNGFile DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/Default.png BlueShieldDemo/Default.png184"CopyPNGFile DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/Default.png BlueShieldDemo/Default.pngc2c0a3d9aa2fb841^325abfd9aa2fb841^---0#0#1#-19%DVTDocumentLocation2@70"file:///Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/Default.png0000000000000000^775"CopyPNGFile DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/Default.png BlueShieldDemo/Default.png    cd /Users/chenbo/Desktop/BlueShieldDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/Default.png /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/Default.png36"DB4A876B-CE54-4768-848D-DC0757384161-
+b46CE0A57-0E33-4E0C-90C6-8B7DA2AC8E75
+
+CCopyPNGFile /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/Default@2x.png BlueShieldDemo/Default@2x.png
+s405777113.679469
+e405777113.813280
+r1
+xCopyPNGFile
+x/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/Default@2x.png
+xBlueShieldDemo/Default@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection190"CopyPNGFile DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/Default@2x.png BlueShieldDemo/Default@2x.png190"CopyPNGFile DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/Default@2x.png BlueShieldDemo/Default@2x.png420aaed9aa2fb841^e833d0d9aa2fb841^---0#0#1#-19%DVTDocumentLocation2@73"file:///Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/Default@2x.png0000000000000000^787"CopyPNGFile DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/Default@2x.png BlueShieldDemo/Default@2x.png    cd /Users/chenbo/Desktop/BlueShieldDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/Default@2x.png /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/Default@2x.png36"A4161F30-E187-4066-B755-F7EE0659F64C-
+b46CE0A57-0E33-4E0C-90C6-8B7DA2AC8E75
+
+CCopyPNGFile /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/bluetooth_shield_114.png bluetooth_shield_114.png
+s405777113.967245
+e405777114.028349
+r1
+xCopyPNGFile
+x/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/bluetooth_shield_114.png
+xbluetooth_shield_114.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection195"CopyPNGFile DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/bluetooth_shield_114.png bluetooth_shield_114.png195"CopyPNGFile DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/bluetooth_shield_114.png bluetooth_shield_114.pngc3b8f7d9aa2fb841^be4d07daaa2fb841^---0#0#1#-19%DVTDocumentLocation2@68"file:///Users/chenbo/Desktop/BlueShieldDemo/bluetooth_shield_114.png0000000000000000^797"CopyPNGFile DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/bluetooth_shield_114.png bluetooth_shield_114.png    cd /Users/chenbo/Desktop/BlueShieldDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/chenbo/Desktop/BlueShieldDemo/bluetooth_shield_114.png /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/bluetooth_shield_114.png36"A710D717-BD49-4807-8E69-6757A95395F7-
+b46CE0A57-0E33-4E0C-90C6-8B7DA2AC8E75
+
+CCopyPNGFile /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/bluetooth_shield_57.png bluetooth_shield_57.png
+s405777113.913760
+e405777113.966906
+r1
+xCopyPNGFile
+x/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/bluetooth_shield_57.png
+xbluetooth_shield_57.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection193"CopyPNGFile DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/bluetooth_shield_57.png bluetooth_shield_57.png193"CopyPNGFile DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/bluetooth_shield_57.png bluetooth_shield_57.pnga706ead9aa2fb841^0188f7d9aa2fb841^---0#0#1#-19%DVTDocumentLocation2@67"file:///Users/chenbo/Desktop/BlueShieldDemo/bluetooth_shield_57.png0000000000000000^793"CopyPNGFile DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/bluetooth_shield_57.png bluetooth_shield_57.png    cd /Users/chenbo/Desktop/BlueShieldDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/chenbo/Desktop/BlueShieldDemo/bluetooth_shield_57.png /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/bluetooth_shield_57.png36"6CF82869-9287-426D-9B28-3964A2CAE320-
+b46CE0A57-0E33-4E0C-90C6-8B7DA2AC8E75
+
+CCopyStringsFile /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/en.lproj/InfoPlist.strings BlueShieldDemo/en.lproj/InfoPlist.strings
+s405777113.638420
+e405777113.679150
+r1
+xCopyStringsFile
+x/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/en.lproj/InfoPlist.strings
+xBlueShieldDemo/en.lproj/InfoPlist.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy BlueShieldDemo/en.lproj/InfoPlist.strings218"CopyStringsFile DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/en.lproj/InfoPlist.strings BlueShieldDemo/en.lproj/InfoPlist.stringsa489a3d9aa2fb841^2a1baed9aa2fb841^---0#0#1#-19%DVTDocumentLocation2@85"file:///Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/en.lproj/InfoPlist.strings0000000000000000^766"CopyStringsFile DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/en.lproj/InfoPlist.strings BlueShieldDemo/en.lproj/InfoPlist.strings    cd /Users/chenbo/Desktop/BlueShieldDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/en.lproj -- BlueShieldDemo/en.lproj/InfoPlist.strings36"0E039965-3731-417C-9154-61BB1EB9124A-
+b46CE0A57-0E33-4E0C-90C6-8B7DA2AC8E75
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/ResourceRules.plist
+s405777110.428665
+e405777110.456020
+r1
+xCpResource
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist
+xDerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/ResourceRules.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection158"Copy DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/ResourceRules.plist286"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/ResourceRules.plist98db6dd6aa2fb841^c1e674d6aa2fb841^---0#0#1#-19%DVTDocumentLocation2@197"file:///Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/ResourceRules.plist0034c0d7dcffdf42^1050"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/ResourceRules.plist    cd /Users/chenbo/Desktop/BlueShieldDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app36"42279AA7-EB72-4F63-839C-7405EEE1CEFA-
+b46CE0A57-0E33-4E0C-90C6-8B7DA2AC8E75
+
+CGenerateDSYMFile /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/BuildProductsPath/Release-iphoneos/BlueShieldDemo.app.dSYM /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/BlueShieldDemo
+s405777113.540805
+e405777113.637377
+r1
+xGenerateDSYMFile
+x/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/BuildProductsPath/Release-iphoneos/BlueShieldDemo.app.dSYM
+x/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/BlueShieldDemo
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection172"Generate /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/BuildProductsPath/Release-iphoneos/BlueShieldDemo.app.dSYM292"GenerateDSYMFile DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/BuildProductsPath/Release-iphoneos/BlueShieldDemo.app.dSYM DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/BlueShieldDemo8b888ad9aa2fb841^7637a3d9aa2fb841^---0#0#1#-19%DVTDocumentLocation2@170"file:///Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/BuildProductsPath/Release-iphoneos/BlueShieldDemo.app.dSYM0034c0d7dcffdf42^978"GenerateDSYMFile DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/BuildProductsPath/Release-iphoneos/BlueShieldDemo.app.dSYM DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/BlueShieldDemo    cd /Users/chenbo/Desktop/BlueShieldDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/BlueShieldDemo -o /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/BuildProductsPath/Release-iphoneos/BlueShieldDemo.app.dSYM36"4610C0D1-77D0-42A5-BCBC-FAB956C79AB7-
+b46CE0A57-0E33-4E0C-90C6-8B7DA2AC8E75
+
+CLd /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/BlueShieldDemo normal armv7
+s405777112.999499
+e405777113.539338
+r1
+xLd
+x/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/BlueShieldDemo
+xnormal
+xarmv7
+d/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/Objects-normal/armv7/BlueShieldDemo.LinkFileList
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/crt1.3.1.o
+d/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/Objects-normal/armv7/main.o
+d/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/Objects-normal/armv7/BSAppDelegate.o
+d/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/Objects-normal/armv7/BlueShield.o
+d/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/Objects-normal/armv7/BSViewController.o
+d/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/Objects-normal/armv7/MBProgressHUD.o
+d/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/Objects-normal/armv7/BSShieldViewController.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreBluetooth.framework/CoreBluetooth
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/arc/libarclite_iphoneos.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libkeymgr.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_stats.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection190"Link /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/BlueShieldDemo164"Ld DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/BlueShieldDemo normal armv79cfbffd8aa2fb841^2e1a8ad9aa2fb841^---0#0#1#--1823"Ld DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/BlueShieldDemo normal armv7    cd /Users/chenbo/Desktop/BlueShieldDemo    setenv IPHONEOS_DEPLOYMENT_TARGET 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -L/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/BuildProductsPath/Release-iphoneos -F/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/BuildProductsPath/Release-iphoneos -filelist /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/Objects-normal/armv7/BlueShieldDemo.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=5.1 -framework CoreBluetooth -framework UIKit -framework Foundation -framework CoreGraphics -Xlinker -dependency_info -Xlinker /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/Objects-normal/armv7/BlueShieldDemo_dependency_info.dat -o /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/BlueShieldDemo36"346BEF82-03A1-417A-8161-CBDFAC2E8891-
+b46CE0A57-0E33-4E0C-90C6-8B7DA2AC8E75
+
+CProcessInfoPlistFile /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/Info.plist /Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/BlueShieldDemo-Info.plist
+s405777110.422017
+e405777110.426686
+r1
+xProcessInfoPlistFile
+x/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/Info.plist
+x/Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/BlueShieldDemo-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Process /Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/BlueShieldDemo-Info.plist206"ProcessInfoPlistFile DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/Info.plist BlueShieldDemo/BlueShieldDemo-Info.plist166b6cd6aa2fb841^bc3c6dd6aa2fb841^---0#0#1#-19%DVTDocumentLocation2@84"file:///Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/BlueShieldDemo-Info.plist0000000000000000^1187"ProcessInfoPlistFile DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/Info.plist BlueShieldDemo/BlueShieldDemo-Info.plist    cd /Users/chenbo/Desktop/BlueShieldDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/BlueShieldDemo-Info.plist -genpkginfo /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/ResourceRules.plist -o /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/Info.plist36"D463F018-0674-4525-B0C0-6FAEB9A781A4-
+b46CE0A57-0E33-4E0C-90C6-8B7DA2AC8E75
+
+CProcessPCH /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/BlueShieldDemo/Index/PrecompiledHeaders/BlueShieldDemo-Prefix-guoodyjrtiddopdjrlbmydnyoabu_ast/BlueShieldDemo-Prefix.pch.pch BlueShieldDemo/BlueShieldDemo-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/PrecompiledHeaders/BlueShieldDemo-Prefix-ahovnyuejtapzmfywndwksjexufy/BlueShieldDemo-Prefix.pch.pch BlueShieldDemo/BlueShieldDemo-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s405777110.478357
+e405777111.897021
+r1
+xProcessPCH
+x/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/PrecompiledHeaders/BlueShieldDemo-Prefix-ahovnyuejtapzmfywndwksjexufy/BlueShieldDemo-Prefix.pch.pch
+xBlueShieldDemo/BlueShieldDemo-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/BlueShieldDemo-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Precompile BlueShieldDemo/BlueShieldDemo-Prefix.pch288"ProcessPCH DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/PrecompiledHeaders/BlueShieldDemo-Prefix-ahovnyuejtapzmfywndwksjexufy/BlueShieldDemo-Prefix.pch.pch BlueShieldDemo/BlueShieldDemo-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler629d7ad6aa2fb841^c2a3e5d7aa2fb841^---0#0#1#-19%DVTDocumentLocation2@84"file:///Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/BlueShieldDemo-Prefix.pch0000000000000000^4209"ProcessPCH DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/PrecompiledHeaders/BlueShieldDemo-Prefix-ahovnyuejtapzmfywndwksjexufy/BlueShieldDemo-Prefix.pch.pch BlueShieldDemo/BlueShieldDemo-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/chenbo/Desktop/BlueShieldDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=5.1 -iquote /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/BlueShieldDemo-generated-files.hmap -I/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/BlueShieldDemo-own-target-headers.hmap -I/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/BlueShieldDemo-all-target-headers.hmap -iquote /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/BlueShieldDemo-project-headers.hmap -I/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/BuildProductsPath/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/DerivedSources/armv7 -I/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/DerivedSources -F/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/BuildProductsPath/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 --serialize-diagnostics /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/PrecompiledHeaders/BlueShieldDemo-Prefix-ahovnyuejtapzmfywndwksjexufy/BlueShieldDemo-Prefix.pch.dia -MMD -MT dependencies -MF /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/PrecompiledHeaders/BlueShieldDemo-Prefix-ahovnyuejtapzmfywndwksjexufy/BlueShieldDemo-Prefix.pch.d -c /Users/chenbo/Desktop/BlueShieldDemo/BlueShieldDemo/BlueShieldDemo-Prefix.pch -o /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/PrecompiledHeaders/BlueShieldDemo-Prefix-ahovnyuejtapzmfywndwksjexufy/BlueShieldDemo-Prefix.pch.pch36"45D7DAA9-EABE-423A-BFB9-CF43736A707C-
+b46CE0A57-0E33-4E0C-90C6-8B7DA2AC8E75
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/BlueShieldDemo.xcent
+s405777119.232671
+e405777119.235707
+r1
+xProcessProductPackaging
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist
+x/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/BlueShieldDemo.xcent
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection319"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/BlueShieldDemo.xcent319"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/BlueShieldDemo.xcent08ad3bdfaa2fb841^68583cdfaa2fb841^---0#0#1#-19%DVTDocumentLocation2@218"file:///Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/BlueShieldDemo.xcent0034c0d7dcffdf42^950"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/BlueShieldDemo.xcent    cd /Users/chenbo/Desktop/BlueShieldDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist -entitlements -format xml -o /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/IntermediateBuildFilesPath/BlueShieldDemo.build/Release-iphoneos/BlueShieldDemo.build/BlueShieldDemo.xcent36"64F4F926-19AB-40DE-A63A-C503431F635E-
+b46CE0A57-0E33-4E0C-90C6-8B7DA2AC8E75
+
+CProcessProductPackaging /Users/chenbo/Library/MobileDevice/Provisioning\ Profiles/3007C155-FE93-485A-A40B-C6B66BFE5EDB.mobileprovision /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/embedded.mobileprovision
+s405775958.298084
+e405775958.300447
+r1
+xProcessProductPackaging
+x/Users/chenbo/Library/MobileDevice/Provisioning Profiles/3007C155-FE93-485A-A40B-C6B66BFE5EDB.mobileprovision
+x/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/embedded.mobileprovision
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection293"ProcessProductPackaging /Users/chenbo/Library/MobileDevice/Provisioning\ Profiles/3007C155-FE93-485A-A40B-C6B66BFE5EDB.mobileprovision DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/embedded.mobileprovision293"ProcessProductPackaging /Users/chenbo/Library/MobileDevice/Provisioning\ Profiles/3007C155-FE93-485A-A40B-C6B66BFE5EDB.mobileprovision DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/embedded.mobileprovisionce6f4c56a62fb841^14eb4c56a62fb841^---0#0#1#-19%DVTDocumentLocation2@202"file:///Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/embedded.mobileprovision0034c0d7dcffdf42^872"ProcessProductPackaging /Users/chenbo/Library/MobileDevice/Provisioning\ Profiles/3007C155-FE93-485A-A40B-C6B66BFE5EDB.mobileprovision DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/embedded.mobileprovision    cd /Users/chenbo/Desktop/BlueShieldDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Users/chenbo/Library/MobileDevice/Provisioning\ Profiles/3007C155-FE93-485A-A40B-C6B66BFE5EDB.mobileprovision -o /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/embedded.mobileprovision36"1E55618C-A73A-4FB2-9272-1164A4E14543-
+b7853B198-30CC-460B-BEA8-CFC5B45E8CBC
+
+CProcessProductPackaging /Users/chenbo/Library/MobileDevice/Provisioning\ Profiles/4814F5CB-0998-4E62-A785-B1E2772FBAA1.mobileprovision /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/embedded.mobileprovision
+s405776131.787659
+e405776131.789959
+r1
+xProcessProductPackaging
+x/Users/chenbo/Library/MobileDevice/Provisioning Profiles/4814F5CB-0998-4E62-A785-B1E2772FBAA1.mobileprovision
+x/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/embedded.mobileprovision
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection293"ProcessProductPackaging /Users/chenbo/Library/MobileDevice/Provisioning\ Profiles/4814F5CB-0998-4E62-A785-B1E2772FBAA1.mobileprovision DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/embedded.mobileprovision293"ProcessProductPackaging /Users/chenbo/Library/MobileDevice/Provisioning\ Profiles/4814F5CB-0998-4E62-A785-B1E2772FBAA1.mobileprovision DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/embedded.mobileprovision61c5c903a72fb841^8a3bca03a72fb841^---0#0#1#-19%DVTDocumentLocation2@202"file:///Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/embedded.mobileprovision0034c0d7dcffdf42^872"ProcessProductPackaging /Users/chenbo/Library/MobileDevice/Provisioning\ Profiles/4814F5CB-0998-4E62-A785-B1E2772FBAA1.mobileprovision DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/embedded.mobileprovision    cd /Users/chenbo/Desktop/BlueShieldDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Users/chenbo/Library/MobileDevice/Provisioning\ Profiles/4814F5CB-0998-4E62-A785-B1E2772FBAA1.mobileprovision -o /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/embedded.mobileprovision36"688A38EB-873B-4C05-8FBB-57CEE7507B83-
+b4BADF0E4-4AF0-4B1F-9CEB-389D0A287A7A
+
+CProcessProductPackaging /Users/chenbo/Library/MobileDevice/Provisioning\ Profiles/F65EBC01-F79F-451D-AAAA-82107617B259.mobileprovision /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/embedded.mobileprovision
+s405777119.220868
+e405777119.230628
+r1
+xProcessProductPackaging
+x/Users/chenbo/Library/MobileDevice/Provisioning Profiles/F65EBC01-F79F-451D-AAAA-82107617B259.mobileprovision
+x/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/embedded.mobileprovision
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection293"ProcessProductPackaging /Users/chenbo/Library/MobileDevice/Provisioning\ Profiles/F65EBC01-F79F-451D-AAAA-82107617B259.mobileprovision DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/embedded.mobileprovision293"ProcessProductPackaging /Users/chenbo/Library/MobileDevice/Provisioning\ Profiles/F65EBC01-F79F-451D-AAAA-82107617B259.mobileprovision DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/embedded.mobileprovisione1b438dfaa2fb841^6b0b3bdfaa2fb841^---0#0#1#-19%DVTDocumentLocation2@202"file:///Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/embedded.mobileprovision0034c0d7dcffdf42^872"ProcessProductPackaging /Users/chenbo/Library/MobileDevice/Provisioning\ Profiles/F65EBC01-F79F-451D-AAAA-82107617B259.mobileprovision DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/embedded.mobileprovision    cd /Users/chenbo/Desktop/BlueShieldDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Users/chenbo/Library/MobileDevice/Provisioning\ Profiles/F65EBC01-F79F-451D-AAAA-82107617B259.mobileprovision -o /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/embedded.mobileprovision36"4C24BC6E-8868-42A2-84F6-99BE2283A0D1-
+b46CE0A57-0E33-4E0C-90C6-8B7DA2AC8E75
+
+CSetMode u+w,go-w,a+rX /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app
+s405777119.208240
+e405777119.219789
+r1
+xSetMode
+xu+w,go-w,a+rX
+x/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection155"SetMode u+w,go-w,a+rX DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app155"SetMode u+w,go-w,a+rX DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.appf06a35dfaa2fb841^514e38dfaa2fb841^---0#0#1#-19%DVTDocumentLocation2@178"file:///Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/0000000000000000^592"SetMode u+w,go-w,a+rX DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app    cd /Users/chenbo/Desktop/BlueShieldDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /bin/chmod -RH u+w,go-w,a+rX /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app36"D08B5016-AE1D-47F7-AB48-7F8A749B0AFD-
+b46CE0A57-0E33-4E0C-90C6-8B7DA2AC8E75
+
+CSetOwnerAndGroup chenbo:staff /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app
+s405777119.181408
+e405777119.207701
+r1
+xSetOwnerAndGroup
+xchenbo:staff
+x/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection163"SetOwnerAndGroup chenbo:staff DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app163"SetOwnerAndGroup chenbo:staff DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app33892edfaa2fb841^537b35dfaa2fb841^---0#0#1#-19%DVTDocumentLocation2@178"file:///Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/0000000000000000^604"SetOwnerAndGroup chenbo:staff DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app    cd /Users/chenbo/Desktop/BlueShieldDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/sbin/chown -RH chenbo:staff /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app36"4F45CF50-A113-40AC-B1F4-EDFA12C54394-
+b46CE0A57-0E33-4E0C-90C6-8B7DA2AC8E75
+
+CStripping /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/BlueShieldDemo
+s405777119.141847
+e405777119.180850
+r1
+xStripping
+x/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/BlueShieldDemo
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection158"Stripping DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/BlueShieldDemo158"Stripping DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/BlueShieldDemo556c24dfaa2fb841^00572edfaa2fb841^---0#0#1#-19%DVTDocumentLocation2@192"file:///Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/BlueShieldDemo0000000000000000^674"Stripping DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/BlueShieldDemo    cd /Users/chenbo/Desktop/BlueShieldDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/BlueShieldDemo36"E7188EF3-8215-48C6-8855-50969E62DD0F-
+b46CE0A57-0E33-4E0C-90C6-8B7DA2AC8E75
+
+CSymLink /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/BuildProductsPath/Release-iphoneos/BlueShieldDemo.app /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app
+s405777110.429644
+e405777110.477278
+r1
+xSymLink
+x/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/BuildProductsPath/Release-iphoneos/BlueShieldDemo.app
+x/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection166"Process /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/BuildProductsPath/Release-iphoneos/BlueShieldDemo.app263"SymLink DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/BuildProductsPath/Release-iphoneos/BlueShieldDemo.app DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.appea5b6ed6aa2fb841^f7397ad6aa2fb841^---0#0#1#--842"SymLink DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/BuildProductsPath/Release-iphoneos/BlueShieldDemo.app DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app    cd /Users/chenbo/Desktop/BlueShieldDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /bin/ln -sf /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/BuildProductsPath/Release-iphoneos/BlueShieldDemo.app36"A1769891-D3D6-49FB-95FB-C0410D61BCE3-
+b46CE0A57-0E33-4E0C-90C6-8B7DA2AC8E75
+
+CTouch /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/BuildProductsPath/Release-iphoneos/BlueShieldDemo.app.dSYM
+s405777122.625446
+e405777122.637843
+r1
+xTouch
+x/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/BuildProductsPath/Release-iphoneos/BlueShieldDemo.app.dSYM
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection169"Touch /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/BuildProductsPath/Release-iphoneos/BlueShieldDemo.app.dSYM132"Touch DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/BuildProductsPath/Release-iphoneos/BlueShieldDemo.app.dSYMeb36a0e2aa2fb841^da56a3e2aa2fb841^---0#0#1#--551"Touch DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/BuildProductsPath/Release-iphoneos/BlueShieldDemo.app.dSYM    cd /Users/chenbo/Desktop/BlueShieldDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/BuildProductsPath/Release-iphoneos/BlueShieldDemo.app.dSYM36"45F50549-E0CA-4174-8EB6-CB9967B8493C-
+b46CE0A57-0E33-4E0C-90C6-8B7DA2AC8E75
+
+CTouch /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app
+r0
+
+CValidate /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app
+s405777122.533438
+e405777122.623371
+r1
+xValidate
+x/Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection142"Validate DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app142"Validate DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app60ab88e2aa2fb841^b5a89fe2aa2fb841^---0#0#1#-19%DVTDocumentLocation2@178"file:///Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app/0000000000000000^709"Validate DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app    cd /Users/chenbo/Desktop/BlueShieldDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PRODUCT_TYPE com.apple.product-type.application    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/Validation /Users/chenbo/Desktop/BlueShieldDemo/DerivedData/Build/Intermediates/ArchiveIntermediates/BlueShieldDemo/InstallationBuildProductsLocation/Applications/BlueShieldDemo.app36"14A2E0BA-ED5F-4859-A60D-0D92150BCA1E-
+b46CE0A57-0E33-4E0C-90C6-8B7DA2AC8E75
+
