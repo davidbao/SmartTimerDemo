@@ -144,6 +144,8 @@ static int _taskCount = 0;
                         [self makeTasksAckBuffer:buffer returnLength:&length];
                         
                         [self sendTxBuffer:buffer sendLength:length];
+                        
+                        _rxLabel.text = [NSString stringWithFormat:@"%@\nGet the tasks successfully.", _rxLabel.text];
                     }
                 }
             }
@@ -160,20 +162,20 @@ static int _taskCount = 0;
                     byte crcLow = buffer[length-2];
                     ushort actual = ((crcHigh << 8) & 0xFF00) + crcLow;
                     if(expected == actual){
-                        stream.readByte();          // skip frameId
-                        stream.readInt16();         // skip length
+                        stream.readByte();               // skip frameId
+                        stream.readInt16();              // skip length
                         byte command = stream.readByte();
                         if(command == 0x21){             // sync time.
                             byte status = stream.readByte();
-                            // todo: print to console.
+                            _rxLabel.text = [NSString stringWithFormat:@"%@\nSync time successfully. status is %d\n", _rxLabel.text, status];
                         }
                         else if(command == 0x22){        // download.
                             byte status = stream.readByte();
-                            // todo: print to console.
+                            _rxLabel.text = [NSString stringWithFormat:@"%@\nDownload the plans successfully. status is %d\n", _rxLabel.text, status];
                         }
                         else if(command == 0x23){        // retrived the packet count.
                             byte status = stream.readByte();
-                            if(status == 0){        // successfully
+                            if(status == 0){             // successfully
                                 byte packetCount = stream.readByte();
                                 for (byte i=0; i<packetCount; i++) {
                                     byte buffer[512];
@@ -185,7 +187,7 @@ static int _taskCount = 0;
                                 }
                             }
                         }
-                        else if(command == 0x24){    // retrived the packet.
+                        else if(command == 0x24){        // retrived the packet.
                             @synchronized(_tasksLocker){
                                 _retrivedTasks = true;
                                 _tasksBufferCount = 0;
