@@ -85,8 +85,12 @@ static int _taskCount = 0;
                 byte* buffer = (byte*)[data bytes];
                 int length = [data length];
                 ByteArray array(buffer, length);
-                printf("recv buffer: %s\r\n", array.toString().data());
-                
+#if DEBUG
+                NSDateFormatter *DateFormatter=[[NSDateFormatter alloc] init];
+                [DateFormatter setDateFormat:@"yyyy-MM-dd hh:mm:ss.SSS"];
+                NSString* timeStr = [DateFormatter stringFromDate:[NSDate date]];
+                printf("time: %s, recv buffer: %s\n", [timeStr UTF8String], array.toString().data());
+#endif
                 NSString *recv = [[NSString alloc] initWithUTF8String:array.toString().data()];
                 if(recv != nil){
                     _rxLabel.text = [NSString stringWithFormat:@"%@%@\n", _rxLabel.text, recv];
@@ -123,7 +127,10 @@ static int _taskCount = 0;
                         _retrivedTasks = false;
 #if DEBUG
                         ByteArray array(_tasksBuffer, _tasksBufferCount);
-                        printf("recv full buffer: %s\r\n", array.toString().data());
+                        NSDateFormatter *DateFormatter=[[NSDateFormatter alloc] init];
+                        [DateFormatter setDateFormat:@"yyyy-MM-dd hh:mm:ss.SSS"];
+                        NSString* timeStr = [DateFormatter stringFromDate:[NSDate date]];
+                        printf("time: %s, recv full buffer: %s\n", [timeStr UTF8String], array.toString().data());
 #endif
                         // process 0x24 command.
                         MemoryStream stream(_tasksBuffer + 5, _tasksBufferCount);
@@ -145,7 +152,7 @@ static int _taskCount = 0;
                         
                         [self sendTxBuffer:buffer sendLength:length];
                         
-                        _rxLabel.text = [NSString stringWithFormat:@"%@\nGet the tasks successfully.", _rxLabel.text];
+                        _rxLabel.text = [NSString stringWithFormat:@"%@Get the tasks successfully.", _rxLabel.text];
                     }
                 }
             }
@@ -167,11 +174,11 @@ static int _taskCount = 0;
                         byte command = stream.readByte();
                         if(command == 0x21){             // sync time.
                             byte status = stream.readByte();
-                            _rxLabel.text = [NSString stringWithFormat:@"%@\nSync time successfully. status is %d\n", _rxLabel.text, status];
+                            _rxLabel.text = [NSString stringWithFormat:@"%@Sync time successfully. status is %d\n", _rxLabel.text, status];
                         }
                         else if(command == 0x22){        // download.
                             byte status = stream.readByte();
-                            _rxLabel.text = [NSString stringWithFormat:@"%@\nDownload the plans successfully. status is %d\n", _rxLabel.text, status];
+                            _rxLabel.text = [NSString stringWithFormat:@"%@Download the plans successfully. status is %d\n", _rxLabel.text, status];
                         }
                         else if(command == 0x23){        // retrived the packet count.
                             byte status = stream.readByte();
@@ -251,7 +258,12 @@ static int _taskCount = 0;
     stream.writeUInt16((crc16));
     stream.writeByte(Tail);
     
-    printf("send buffer: %s\r\n", stream.buffer()->toString().data());
+#if DEBUG
+    NSDateFormatter *DateFormatter=[[NSDateFormatter alloc] init];
+    [DateFormatter setDateFormat:@"yyyy-MM-dd hh:mm:ss.SSS"];
+    NSString* timeStr = [DateFormatter stringFromDate:[NSDate date]];
+    printf("time: %s, send buffer: %s\n", [timeStr UTF8String], stream.buffer()->toString().data());
+#endif
     
     stream.copyTo(buffer);
     *length = stream.length();
