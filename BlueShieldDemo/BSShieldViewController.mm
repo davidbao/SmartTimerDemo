@@ -153,31 +153,46 @@ static int _taskCount = 0;
             if (length > 8)
             {
                 byte header = stream.readByte();
-                if(header == Header){
-                    stream.readByte();          // skip frameId
-                    stream.readInt16();         // skip length
-                    byte command = stream.readByte();
-                    if(command == 0x23){        // retrived the packet count.
-                        byte status = stream.readByte();
-                        if(status == 0){        // successfully
-                            byte packetCount = stream.readByte();
-                            for (byte i=0; i<packetCount; i++) {
-                                byte buffer[512];
-                                memset(buffer, 0, sizeof(buffer));
-                                int length = 0;
-                                [self makeTasksBuffer:buffer returnLength:&length packetNo:i];
+                byte tail = buffer[length-1];
+                if(header == Header && tail == Tail){
+                    ushort expected = Crc16Utilities::CheckByBit(buffer, 0, length-3); // remove cr16 & tail
+                    byte crcHigh = buffer[length-3];
+                    byte crcLow = buffer[length-2];
+                    ushort actual = ((crcHigh << 8) & 0xFF00) + crcLow;
+                    if(expected == actual){
+                        stream.readByte();          // skip frameId
+                        stream.readInt16();         // skip length
+                        byte command = stream.readByte();
+                        if(command == 0x21){             // sync time.
+                            byte status = stream.readByte();
+                            // todo: print to console.
+                        }
+                        else if(command == 0x22){        // download.
+                            byte status = stream.readByte();
+                            // todo: print to console.
+                        }
+                        else if(command == 0x23){        // retrived the packet count.
+                            byte status = stream.readByte();
+                            if(status == 0){        // successfully
+                                byte packetCount = stream.readByte();
+                                for (byte i=0; i<packetCount; i++) {
+                                    byte buffer[512];
+                                    memset(buffer, 0, sizeof(buffer));
+                                    int length = 0;
+                                    [self makeTasksBuffer:buffer returnLength:&length packetNo:i];
 
-                                [self sendTxBuffer:buffer sendLength:length];
+                                    [self sendTxBuffer:buffer sendLength:length];
+                                }
                             }
                         }
-                    }
-                    else if(command == 0x24){    // retrived the packet.
-                        @synchronized(_tasksLocker){
-                            _retrivedTasks = true;
-                            _tasksBufferCount = 0;
-                            
-                            memcpy(&_tasksBuffer[_tasksBufferCount], buffer, length);
-                            _tasksBufferCount += length;
+                        else if(command == 0x24){    // retrived the packet.
+                            @synchronized(_tasksLocker){
+                                _retrivedTasks = true;
+                                _tasksBufferCount = 0;
+                                
+                                memcpy(&_tasksBuffer[_tasksBufferCount], buffer, length);
+                                _tasksBufferCount += length;
+                            }
                         }
                     }
                 }
