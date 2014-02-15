@@ -22,6 +22,8 @@ const int Tail = 0xEF;
 
 static int _frameId = 0;
 
+const int AutoTestCount = 100;
+
 struct PlanInfo{
     byte No;            // plan no.
     ushort Interval;    // unit: min
@@ -93,7 +95,7 @@ static int _taskCount = 0;
 #endif
                 NSString *recv = [[NSString alloc] initWithUTF8String:array.toString().data()];
                 if(recv != nil){
-                    _rxLabel.text = [NSString stringWithFormat:@"%@%@\n", _rxLabel.text, recv];
+                    _txtReceived.text = [NSString stringWithFormat:@"%@%@\n", _txtReceived.text, recv];
                 }
                 
                 [self processReceiveBuffer:data];                
@@ -152,7 +154,7 @@ static int _taskCount = 0;
                         
                         [self sendTxBuffer:buffer sendLength:length];
                         
-                        _rxLabel.text = [NSString stringWithFormat:@"%@Get the tasks successfully.", _rxLabel.text];
+                        _txtReceived.text = [NSString stringWithFormat:@"%@Get the tasks successfully.", _txtReceived.text];
                     }
                 }
             }
@@ -174,11 +176,11 @@ static int _taskCount = 0;
                         byte command = stream.readByte();
                         if(command == 0x21){             // sync time.
                             byte status = stream.readByte();
-                            _rxLabel.text = [NSString stringWithFormat:@"%@Sync time successfully. status is %d\n", _rxLabel.text, status];
+                            _txtReceived.text = [NSString stringWithFormat:@"%@Sync time successfully. status is %d\n", _txtReceived.text, status];
                         }
                         else if(command == 0x22){        // download.
                             byte status = stream.readByte();
-                            _rxLabel.text = [NSString stringWithFormat:@"%@Download the plans successfully. status is %d\n", _rxLabel.text, status];
+                            _txtReceived.text = [NSString stringWithFormat:@"%@Download the plans successfully. status is %d\n", _txtReceived.text, status];
                         }
                         else if(command == 0x23){        // retrived the packet count.
                             byte status = stream.readByte();
@@ -208,28 +210,6 @@ static int _taskCount = 0;
             }
         }
     }
-}
-
-#pragma mark - custom method
-
-- (void)sendTx {
-    NSData *data = [_sendText.text dataUsingEncoding:NSUTF8StringEncoding];
-    [_shield writeValue:[CBUUID UUIDWithString:BS_SERIAL_SERVICE_UUID]
-     characteristicUUID:[CBUUID UUIDWithString:BS_SERIAL_TX_UUID]
-                      p:_peripheral
-                   data:data];
-}
-
-#pragma mark - UITextFieldDelegate
-
-- (BOOL)textFieldShouldReturn:(UITextField *)textField {
-    [textField resignFirstResponder];
-    return YES;
-}
-
-- (void)textFieldDidEndEditing:(UITextField *)textField {
-    [textField resignFirstResponder];
-    [self sendTx];
 }
 
 - (void) makeSendBuffer:(unsigned char*) buffer
@@ -401,7 +381,49 @@ static int _taskCount = 0;
     [self sendTxBuffer:buffer sendLength:length];
 }
 - (IBAction)ClearRxText:(UIButton *)sender {
-    _rxLabel.text = @"";
+    _txtReceived.text = @"";
+}
+
+-(void)SyncTimeNProc:(id)anObj{
+    for (int i=0; i<AutoTestCount; i++) {
+        [self SyncTime:nil];
+        [NSThread sleepForTimeInterval:1];
+    }
+}
+- (IBAction)SyncTimeN:(UIButton *)sender {
+    [self ClearRxText:nil];
+    NSThread* myThread = [[NSThread alloc] initWithTarget:self
+                                                 selector:@selector(SyncTimeNProc:)
+                                                   object:nil];
+    [myThread start];
+}
+
+-(void)DownloadNProc:(id)anObj{
+    for (int i=0; i<AutoTestCount; i++) {
+        [self Download:nil];
+        [NSThread sleepForTimeInterval:1];
+    }
+}
+- (IBAction)DownloadN:(UIButton *)sender {
+    [self ClearRxText:nil];
+    NSThread* myThread = [[NSThread alloc] initWithTarget:self
+                                                 selector:@selector(DownloadNProc:)
+                                                   object:nil];
+    [myThread start];
+}
+
+-(void)UploadNProc:(id)anObj{
+    for (int i=0; i<AutoTestCount; i++) {
+        [self Upload:nil];
+        [NSThread sleepForTimeInterval:1];
+    }
+}
+- (IBAction)UploadN:(UIButton *)sender {
+    [self ClearRxText:nil];
+    NSThread* myThread = [[NSThread alloc] initWithTarget:self
+                                                 selector:@selector(UploadNProc:)
+                                                   object:nil];
+    [myThread start];
 }
 
 - (void) sendTxBuffer:(unsigned char*) buffer

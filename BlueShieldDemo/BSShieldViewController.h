@@ -16,8 +16,7 @@
 @property (nonatomic, weak) BlueShield *shield;
 @property (nonatomic, strong) CBPeripheral *peripheral;
 
-@property (strong, nonatomic) IBOutlet UITextField *sendText;
-@property (strong, nonatomic) IBOutlet UILabel *rxLabel;
+@property (weak, nonatomic) IBOutlet UITextView *txtReceived;
 
 - (void)processReceiveBuffer:(NSData*)data;
 
@@ -53,4 +52,5 @@
 
 - (void) sendTxBuffer:(unsigned char*) buffer
          sendLength:(int)length;
+
 @end
