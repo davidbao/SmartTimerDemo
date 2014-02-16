@@ -25,7 +25,7 @@ namespace Common
     {
         Int64ToBCD(value, buffer, 2);
     }
-    ushort BCDUtilities::BCDToUInt16(ushort value, byte* buffer)
+    ushort BCDUtilities::BCDToUInt16(byte* buffer)
     {
         return BCDToInt64(buffer, 0, sizeof(ushort));
     }
@@ -34,7 +34,7 @@ namespace Common
     {
         Int64ToBCD(value, buffer, 4);
     }
-    uint BCDUtilities::BCDToUInt32(uint value, byte* buffer)
+    uint BCDUtilities::BCDToUInt32(byte* buffer)
     {
         return BCDToInt64(buffer, 0, sizeof(uint));
     }

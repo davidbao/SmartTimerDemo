@@ -20,10 +20,10 @@ namespace Common
         static byte BCDToByte(byte value);
         
         static void UInt16ToBCD(ushort value, byte* buffer);
-        static ushort BCDToUInt16(ushort value, byte* buffer);
+        static ushort BCDToUInt16(byte* buffer);
         
         static void UInt32ToBCD(uint value, byte* buffer);
-        static uint BCDToUInt32(uint value, byte* buffer);
+        static uint BCDToUInt32(byte* buffer);
         
         static void Int64ToBCD(int64_t value, byte* buffer, int length);
         static int64_t BCDToInt64(byte* buffer, int offset, int count);

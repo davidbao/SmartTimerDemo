@@ -53,4 +53,7 @@
 - (void) sendTxBuffer:(unsigned char*) buffer
          sendLength:(int)length;
 
+- (Boolean)checkBuffer:(const unsigned char*) buffer
+                length:(int) length;
+
 @end

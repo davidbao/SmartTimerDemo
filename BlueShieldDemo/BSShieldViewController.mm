@@ -111,6 +111,22 @@ static int _taskCount = 0;
     // Dispose of any resources that can be recreated.
 }
 
+- (Boolean)checkBuffer:(const unsigned char*) buffer
+                length:(int) length{
+    byte header = buffer[0];
+    byte tail = buffer[length-1];
+    if(header == Header && tail == Tail){
+        ushort expected = Crc16Utilities::CheckByBit(buffer, 0, length-3); // remove cr16 & tail
+        byte crcHigh = buffer[length-3];
+        byte crcLow = buffer[length-2];
+        ushort actual = ((crcHigh << 8) & 0xFF00) + crcLow;
+        if(expected == actual){
+            return YES;
+        }
+    }
+    return NO;
+}
+
 - (void)processReceiveBuffer:(NSData*)data{
     byte* buffer = (byte*)[data bytes];
     int length = [data length];
@@ -164,13 +180,11 @@ static int _taskCount = 0;
             if (length > 8)
             {
                 byte header = stream.readByte();
-                byte tail = buffer[length-1];
-                if(header == Header && tail == Tail){
-                    ushort expected = Crc16Utilities::CheckByBit(buffer, 0, length-3); // remove cr16 & tail
-                    byte crcHigh = buffer[length-3];
-                    byte crcLow = buffer[length-2];
-                    ushort actual = ((crcHigh << 8) & 0xFF00) + crcLow;
-                    if(expected == actual){
+                if(header == Header){
+                    ushort len = BCDUtilities::BCDToUInt16(buffer+2);
+                    Boolean check = (len == length - 4 && [self checkBuffer:buffer length:length]) ||
+                                    (len != length - 4);
+                    if(check){
                         stream.readByte();               // skip frameId
                         stream.readInt16();              // skip length
                         byte command = stream.readByte();
